@@ -1,0 +1,38 @@
+.fs-9 { font-size: 9px !important;}
+.fs-10 { font-size: 10px !important;}
+.fs-11 { font-size: 11px !important;}
+.fs-12 { font-size: 12px;}
+.fs-14 { font-size: 14px !important;}
+.fs-15 { font-size: 15px !important;}
+.fs-16 { font-size: 16px;}
+.fs-18 { font-size: 18px;}
+.fs-19 { font-size: 18px;}
+.fs-20 { font-size: 20px;}
+.fs-22 { font-size: 22px;}
+.fs-24 { font-size: 24px;}
+.fs-26 { font-size: 26px;}
+.fs-28 { font-size: 28px;}
+.fs-30 { font-size: 30px;}
+.fs-32 { font-size: 32px;}
+.fs-34 { font-size: 34px;}
+.fs-36 { font-size: 36px;}
+.fs-38 { font-size: 38px;}
+
+.b-grey {
+    color: #76939f;
+}
+.btn-green {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 25px;
+    width: 73%;
+}
+.btn-blue-calm {
+    background-color: #cce4fd;
+    color: #0753dd;
+    border-radius: 25px;
+    width: 73%;
+}
+.pointer {
+    cursor: pointer;
+}
