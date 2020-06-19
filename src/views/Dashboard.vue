@@ -123,7 +123,7 @@ export default {
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 14%;
+  height: 14.5%;
   background-color: #263238;
   color: white;
   text-align: center;
