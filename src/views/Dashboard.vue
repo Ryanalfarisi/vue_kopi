@@ -95,7 +95,7 @@ export default {
   background: #01176a;
 }
 ._header {
-  height: 94px;
+  height: 85px;
 }
 .header_hanging {
   background: white;
@@ -123,7 +123,7 @@ export default {
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 94px;
+  height: 13.5%;
   background-color: #263238;
   color: white;
   text-align: center;
