@@ -11,69 +11,19 @@
               ></div>
             </div>
             <p class="fs-32 font-weight-bold">Kopi Mamah Eny</p>
-            <p class="b-grey fs-12 font-weight-bold">Kopi Mamah Eny</p>
+            <p class="t-grey fs-12 font-weight-bold">Kopi Mamah Eny</p>
             <div class="mt-5">
               <div class="btn btn-green font-weight-bold fs-18 py-2">
                 <i class="fa fa-whatsapp mr-2"></i>+62 813-8000-5151
               </div>
               <br />
-              <div
+              <router-link
+                tag="div"
+                :to="{ name: 'Store' }"
                 class="btn btn-blue-calm font-weight-bold fs-16 py-2 px-4 mt-2"
               >
                 <i class="fa fa-shopping-bag mr-2"></i>Start Shopping
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-12 footer_ex py-4">
-        <div class="row">
-          <div
-            class="col-lg-4 col-md-4 col-4 pointer"
-            @click="selected_menu = 'home'"
-          >
-            <div
-              class="wrapper_bottom_img text-center"
-              :class="{ 'text-white': selected_menu == 'home' }"
-            >
-              <img
-                class="d-block ml-auto mr-auto mb-1"
-                src="@/assets/home.png"
-                alt=""
-              />
-              <span class="fs-12 font-weight-bold">Home</span>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-4 col-4 pointer"
-            @click="selected_menu = 'store'"
-          >
-            <div
-              class="wrapper_bottom_img text-center"
-              :class="{ 'text-white': selected_menu == 'store' }"
-            >
-              <img
-                class="d-block ml-auto mr-auto mb-1"
-                src="@/assets/store.png"
-                alt=""
-              />
-              <span class="fs-12 font-weight-bold">Store</span>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-4 col-4 pointer"
-            @click="selected_menu = 'cart'"
-          >
-            <div
-              class="wrapper_bottom_img text-center"
-              :class="{ 'text-white': selected_menu == 'cart' }"
-            >
-              <img
-                class="d-block ml-auto mr-auto mb-1"
-                src="@/assets/cart.png"
-                alt=""
-              />
-              <span class="fs-12 font-weight-bold">Cart</span>
+              </router-link>
             </div>
           </div>
         </div>
@@ -118,19 +68,5 @@ export default {
   height: 35%;
   width: 100%;
   background: white;
-}
-.footer_ex {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 14.5%;
-  background-color: #263238;
-  color: white;
-  text-align: center;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-}
-.wrapper_bottom_img {
-  color: rgba(245, 245, 245, 0.6);
 }
 </style>

@@ -4,8 +4,14 @@ import Vuex from "vuex";
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
+  state: {
+    cart: []
+  },
+  mutations: {
+    addCart(state, payload) {
+      state.cart.push(payload);
+    }
+  },
   actions: {},
   modules: {}
 });

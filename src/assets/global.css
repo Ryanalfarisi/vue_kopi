@@ -1,3 +1,4 @@
+
 .fs-9 { font-size: 9px !important;}
 .fs-10 { font-size: 10px !important;}
 .fs-11 { font-size: 11px !important;}
@@ -18,8 +19,14 @@
 .fs-36 { font-size: 36px;}
 .fs-38 { font-size: 38px;}
 
-.b-grey {
+.t-grey {
     color: #76939f;
+}
+.t-red {
+    color: #dc4c4c;
+}
+.bb-orange {
+    border: 1px solid #eb634f;
 }
 .btn-green {
     background-color: #4caf50;
@@ -27,12 +34,171 @@
     border-radius: 25px;
     width: 73%;
 }
+.btn-second-green {
+    background-color: #65cb96;
+    color: white;
+    border-radius: 25px;
+}
 .btn-blue-calm {
     background-color: #cce4fd;
     color: #0753dd;
     border-radius: 25px;
     width: 73%;
 }
+.btn-blue {
+    background: #0451dd;
+    border-radius: 25px;
+}
+.t-orange {
+    color: #eb634f;
+}
+.t-blue {
+  color: #0552dd !important;
+}
+.t-black {
+    color: #4b4945 !important;
+  }
+.bb-blue {
+    border-bottom: 3px solid #0552dd !important;
+}
 .pointer {
     cursor: pointer;
+}
+input, a, textarea:focus {
+    outline: none;
+}
+.radius-12 {
+    border-radius: 12px;
+}
+.wrapper_goods {
+    height: auto;
+    border-radius: 12px;
+    min-height: 100px;
+}
+.wrapper_goods img {
+    border-radius: 12px;
+}
+
+.cart-btn {
+width: 50%;
+}
+
+.bt-bb-grey {
+    border-top: 1px solid #d2dade;
+    border-bottom: 1px solid #d2dade;
+}
+
+/* Font color */
+.t-grey { color: #8fa1aa}
+.bg-grey { background: #eceff1;}
+
+.checkbox-label {
+    display: block;
+    position: relative;
+    margin: auto;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 24px;
+    height: 24px;
+    width: 24px;
+    clear: both;
+}
+
+.checkbox-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox-label .checkbox-custom {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20px;
+    width: 20px;
+    background-color:#e6e6e6;
+    border-radius: 50%;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+
+.checkbox-label input:checked ~ .checkbox-custom {
+    background-color: #65b86b;
+    border-radius: 50%;
+    -webkit-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity:1;
+}
+
+.checkbox-label .checkbox-custom::after {
+    position: absolute;
+    content: "";
+    left: 12px;
+    top: 12px;
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(0deg) scale(0);
+    -ms-transform: rotate(0deg) scale(0);
+    transform: rotate(0deg) scale(0);
+    opacity:1;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+
+.checkbox-label input:checked ~ .checkbox-custom::after {
+    -webkit-transform: rotate(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(1);
+    opacity:1;
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+/* For Ripple Effect */
+.checkbox-label .checkbox-custom::before {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 10px;
+    width: 0px;
+    height: 0px;
+    border-radius: 5px;
+    border: 2px solid #FFFFFF;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.checkbox-label input:checked ~ .checkbox-custom::before {
+    left: -3px;
+    top: -3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    -webkit-transform: scale(3);
+    -ms-transform: scale(3);
+    transform: scale(3);
+    opacity:0;
+    z-index: 999;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
 }
